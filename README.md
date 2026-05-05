@@ -27,7 +27,7 @@ This repository publishes public binary releases of the Mac app. The Visionary v
 
 ## Install
 
-1. Download the latest `MacVisionary-*.zip` from the Releases page.
+1. Download the latest `MacVisionary-*.zip` from the Releases page or from the `releases/` folder in this repository.
 2. Unzip it.
 3. Move `MacVisionary.app` to `/Applications` or `~/Applications`.
 4. Launch `MacVisionary.app`.
@@ -35,6 +35,11 @@ This repository publishes public binary releases of the Mac app. The Visionary v
 6. Restart `MacVisionary.app` after granting permissions if macOS asks you to.
 
 If macOS says the app was downloaded from the internet, choose Open. Release builds are intended to be Developer ID signed and notarized.
+
+## Latest Build
+
+- [MacVisionary-1.0.0-1102.zip](releases/MacVisionary-1.0.0-1102/MacVisionary-1.0.0-1102.zip)
+- [SHA-256 checksum](releases/MacVisionary-1.0.0-1102/MacVisionary-1.0.0-1102.zip.sha256)
 
 ## Pair With Vision Pro
 
