@@ -41,6 +41,19 @@ If macOS says the app was downloaded from the internet, choose Open. Release bui
 - [MacVisionary-1.0.0-1102.zip](releases/MacVisionary-1.0.0-1102/MacVisionary-1.0.0-1102.zip)
 - [SHA-256 checksum](releases/MacVisionary-1.0.0-1102/MacVisionary-1.0.0-1102.zip.sha256)
 
+## Recommended Setup: Virtual Display
+
+For the best visual quality and fastest window sharing, enable MacVisionary's independent virtual display before connecting to Vision Pro.
+
+1. Launch MacVisionary on the Mac.
+2. Click the MacVisionary menu bar icon.
+3. Choose `Settings`.
+4. In `Independent Render Display`, turn on `Use Independent Virtual Display`.
+5. Leave `Render Display` set to `6K HiDPI` unless you specifically want a different render resolution.
+6. Connect from Visionary on Vision Pro.
+
+When this option is enabled, MacVisionary uses a private high-DPI render display while connected, then restores your normal Mac displays when the session disconnects or the option is turned off. If you ever need an escape hatch, press `Command-Control-Escape` on the Mac to force Visionary into disabled mode and restore the physical display.
+
 ## Pair With Vision Pro
 
 1. Launch Visionary on Apple Vision Pro.
